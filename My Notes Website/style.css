@@ -1,0 +1,25 @@
+* {
+  text-align: left;
+}
+.image {
+  height: 3rem;
+}
+/* p {
+  bol
+} */
+.image2 {
+  width: 200px;
+}
+.image3 {
+  width: 350px;
+}
+.image4 {
+  width: 350px;
+  padding-bottom: 1%;
+}
+h1 {
+  text-align: center;
+}
+li {
+  padding-right: 50%;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="shortcut icon"
+      href="data:image/x-icon;,"
+      type="image/x-icon"
+    />
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="ie=edge"
+    />
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+  </head>
+  <body>
+    <h1>
+      <img
+        src="JavaScript_Logo.png"
+        class="image"
+        alt="The basic JavaScript Logo"
+      />
+      JavaScript Notes
+    </h1>
+
+    <p>
+      <u
+        ><strong> <font size="4">Math.trunc() vs Math.floor()</font></strong></u
+      >
+    </p>
+
+    <ul>
+      <img
+        src="MathTruncPic.png"
+        class="image2"
+        alt="The basic JavaScript Logo"
+      />
+      <li>
+        Math.trunc() just takes the whole number at the front and removes the
+        decimals.
+      </li>
+      <li>
+        Math.floor() rounds towards closest lower integer number. <br /><em
+          >For Example:</em
+        >
+        3.5 -> 3 <em>OR</em> -3.5 -> -4
+      </li>
+      <li>
+        <a
+          href="https://stackoverflow.com/questions/38702724/math-floor-vs-math-trunc-javascript"
+          target="_blank"
+          >Reference</a
+        >
+      </li>
+    </ul>
+
+    <!--THIS IS A BREAK-->
+    <p>
+      <u
+        ><strong> <font size="4">classList Property</font></strong></u
+      >
+    </p>
+
+    <ul>
+      <li>
+        As seen here classList is used to add the hidden style onto the diceEl
+        element<br />
+        <br />
+        <img
+          src="classList.png"
+          class="image3"
+          alt="The basic JavaScript Logo"
+        />
+      </li>
+      <br />
+      <li>
+        The classList operator is used to add, remove or toggle classes onto an
+        element from .css into .html using nomenclature
+        element.classList.add(`class you wish to add`) .remove(`class you wish
+        to remove`) or .toggle(`class you wish to toggle`)
+        <ul>
+          <!-- start of nested list-->
+          <li>
+            classList.toggle will add the class if it is not there, but remove
+            the class if it is already there
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/API/Element/classList"
+          target="_blank"
+          >Reference</a
+        >
+      </li>
+      <li>
+        As seen in the above example the querySelector operation needs to have a
+        dot (.) to note the class to access, but when using classList we need to
+        remove the leading dot (.) from the class we are looking to add, remove
+        or toggle.<br /><em>For Example:</em>
+        <br />diceEl.classList.add(`hidden`) is <strong>correct</strong><br />
+        diceEl.classList.add(`.hidden`) is not correct
+      </li>
+    </ul>
+
+    <!--THIS IS A BREAK-->
+
+    <p>
+      <u
+        ><strong> <font size="4">+= Operator</font></strong></u
+      >
+    </p>
+
+    <ul>
+      <img
+        src="+=Operator.png"
+        class="image4"
+        alt="The basic JavaScript Logo"
+      />
+      <br />
+
+      <li>
+        += is the same as putting something equal to itself plus something else
+      </li>
+      <li>
+        As a general note this is usually used in functions/if statements and
+        for loops to store values that can then be used later to display things
+        such as scores in html documents so the accumulator variable as a
+        general rule MUST BE OUTSIDE OF THE FUNCTION OR LOOP
+      </li>
+      <li>
+        <a
+          href="https://www.w3schools.com/js/js_operators.asp"
+          target="_blank"
+          >Reference</a
+        >
+      </li>
+    </ul>
+
+    <!--THIS IS A BREAK-->
+  </body>
+</html>
